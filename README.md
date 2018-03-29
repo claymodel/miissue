@@ -27,13 +27,18 @@ https://pypi.python.org/pypi/miissue/0.0.1
 
 Git Issue migration tool (Works for Github, Gitbucket)
 
-pre-requirement
+### pre-requirement
+```
 	python 2.7.x
+```
 
-installation
+### installation
+```
 	pip install miissue
+```
 
 
+```
 surl = source git url
 durl = destination git url
 
@@ -43,3 +48,4 @@ drepo = destination repository
 stat = open for open issue migration
 stat = closed for closed issue migration
 
+```
